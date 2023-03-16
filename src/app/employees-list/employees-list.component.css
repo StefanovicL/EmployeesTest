@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.background {
+    background-color: darksalmon;
+}
+
+table {
+    border: 1px solid rgb(200, 200, 200);
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(230, 230, 230);
+}
+
+td {
+    border-top: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    text-align: center;
+    height: 35px;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+th:first-child {
+    text-align: left;
+    width: 250px;
+}
+
+th:nth-child(2) {
+    width: 200px;
+}
+
+td:last-child {
+    border-right: 0;
+}
+
+th:last-child {
+    border-right: 0;
+    width: 120px;
+}
+
+th {
+    border-right: 1px solid gainsboro;
+    height: 35px;
+}
